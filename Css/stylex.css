@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.container {
+    max-width: 600px;
+}
+p, div {
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra ligera para destacar */
+    border-radius: 10px; /* Bordes más suaves */
+    transition: transform 0.2s ease-in-out; /* Animación al pasar el mouse */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Efecto de crecimiento al pasar el mouse */
+}
+
+/* Alinear tarjetas en el centro */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px; /* Espaciado entre tarjetas */
+    justify-content: center;
+}
