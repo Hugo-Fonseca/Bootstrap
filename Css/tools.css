@@ -1,0 +1,159 @@
+/*TOAST*/
+.toast {
+    background-color: rgba(0, 0, 255, 0.85) !important; /* Color de fondo */
+    color: white !important; /* Color del texto */
+    border-radius: 10px !important; /* Bordes redondeados */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3) !important; /* Sombra */
+  }
+  
+  .toast-header {
+    background-color: rgba(0, 0, 150, 0.85) !important; /* Color de fondo del header */
+    color: white !important; /* Texto blanco */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2) !important; /* Borde inferior */
+  }
+  
+  .toast-body {
+    font-size: 14px !important; /* Tamaño del texto */
+  }
+
+#liveToastBtn {
+    size: 100px;
+    background-color: blueviolet;
+}
+
+#liveToast {
+    size: 100px;
+    background-color: aqua;
+
+}
+
+.toast-header {
+    color: green;
+}
+
+.btn-close {
+    background-color: red;
+}
+
+.toast-body{
+    background-color: blue;
+}
+
+/*TOOLTIPS*/
+
+/* Estilos para el toast */
+.toast {
+    max-width: 400px !important; /* Ancho máximo */
+    padding: 1rem 0.75rem !important; /* Espaciado interno */
+    font-size: 1rem !important; /* Tamaño de fuente */
+    color: white !important; /* Color del texto */
+    background-color: rgba(0, 0, 0, 0.8) !important; /* Color de fondo */
+    border: 2px solid rgba(255, 255, 255, 0.3) !important; /* Borde */
+    border-radius: 10px !important; /* Bordes redondeados */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2) !important; /* Sombra */
+}
+
+/* Estilos para la cabecera del toast */
+.toast-header {
+    background-color: rgba(50, 50, 50, 0.9) !important; /* Fondo del header */
+    color: yellow !important; /* Texto amarillo */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2) !important; /* Borde inferior */
+}
+
+/* Estilos para el cuerpo del toast */
+.toast-body {
+    font-size: 14px !important; /* Tamaño del texto */
+    background-color: blue !important; /* Color de fondo del cuerpo */
+}
+
+/* Estilos para el botón que activa el toast */
+#liveToastBtn {
+    width: 100px !important;
+    height: 40px !important;
+    background-color: blueviolet !important;
+    color: white !important;
+    border-radius: 5px !important;
+    border: none !important;
+}
+
+/* Estilos específicos del toast */
+#liveToast {
+    width: 100px !important;
+    height: 50px !important;
+    background-color: aqua !important;
+}
+
+/* Estilos para el botón de cierre del toast */
+.btn-close {
+    background-color: red !important;
+    border-radius: 50% !important;
+    width: 15px !important;
+    height: 15px !important;
+    opacity: 0.8 !important;
+}
+
+/* Estilos generales del tooltip */
+.tooltip {
+    position: absolute;
+    z-index: 9999; /* Para que esté por encima de otros elementos */
+    max-width: 250px; /* Ancho máximo */
+    padding: 0.5rem 1rem; /* Espaciado interno */
+    margin: 0.75rem; /* Margen exterior */
+    font-size: 1rem; /* Tamaño del texto */
+    color: black; /* Color del texto */
+    background-color: rgba(255, 255, 0, 0.9); /* Fondo amarillo */
+    border-radius: 8px; /* Bordes redondeados */
+    opacity: 1; /* Opacidad total */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Sombra para mejor visibilidad */
+}
+
+/* Estilos para el header del tooltip */
+.tooltip-header {
+    background-color: rgba(200, 200, 0, 0.9); /* Color ligeramente más oscuro */
+    color: black; /* Texto negro */
+    font-weight: bold; /* Negrita */
+    padding: 0.5rem; /* Espaciado interno */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2); /* Borde inferior */
+}
+
+/* Flecha del tooltip */
+.tooltip::after {
+    content: "";
+    position: absolute;
+    width: 1rem;
+    height: 0.5rem;
+    background-color: rgba(255, 255, 0, 0.9);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+/* Estilos cuando el tooltip está visible */
+.tooltip.show {
+    display: block;
+}
+
+/* Estilos cuando el tooltip está oculto */
+.tooltip.hide {
+    display: none;
+}
+
+/* Estilos generales del tooltip */
+.tooltip {
+    font-size: 0.875rem; /* Equivalente a $font-size-sm */
+    max-width: 200px; /* Ancho máximo */
+    color: white; /* Color del texto */
+    background-color: black; /* Color de fondo */
+    border-radius: 4px; /* Bordes redondeados */
+    opacity: 0.9; /* Opacidad */
+    padding: 0.25rem 0.5rem; /* Espaciado interno */
+    margin: 0; /* Eliminando el margin */
+}
+
+/* Flecha del tooltip */
+.tooltip::after {
+    content: "";
+    position: absolute;
+    width: 0.8rem; /* Ancho de la flecha */
+    height: 0.4rem; /* Alto de la flecha */
+    background-color: black; /* Color de la flecha */
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
