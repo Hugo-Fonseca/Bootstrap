@@ -13,7 +13,9 @@ body {
     top: 0%;
     z-index: 1000;
 } */
- 
+a{
+    text-underline-offset: 0px;
+}
 p, div {
     margin-bottom: 10px;
     border-radius: 5px;
