@@ -3,7 +3,16 @@ body {
 }
 .container {
     max-width: 600px;
+    /* position: fixed; */
 }
+/* .boton{
+    padding: 60px 20px;
+}
+.navbar{
+    position: fixed;
+    top: 0%;
+    z-index: 1000;
+} */
 p, div {
     margin-bottom: 10px;
     border-radius: 5px;
